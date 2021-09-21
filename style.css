@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+}
+.logo > img {
+  width: 60px;
+  height: 50px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.login_box {
+  width: 380px;
+  height: 45px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.login_box::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.login-btn {
+  margin: 20px 0px;
+  width: 380px;
+  height: 45px;
+  border-radius: 30px;
+  color: white;
+  background-color: rgba(110, 168, 216);
+  border: none;
+  cursor: pointer;
+}
+
+.login-form a {
+  color: rgba(110, 168, 216);
+  cursor: pointer;
+}
+
+.sns-login {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sns-btn img {
+  width: 15px;
+  height: 15px;
+}
+
+.sns-btn {
+  width: 180px;
+  height: 35px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 5px;
+}
+
+.sns-btn input {
+  border: none;
+  background-color: white;
+  /* width: 160px;
+  height: 35px;
+  border-radius: 30px; */
+  font-size: 12px;
+  text-align: center;
+}
